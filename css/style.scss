@@ -33,9 +33,10 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #000;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
+  color:rgba(255,255,255,0.5)
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,9 +89,9 @@ button.btn, input.btn {
 }
 
 .main {
-  background-color: white;
-  border-left: solid 1px #cedfea;
-  border-right: solid 1px #cedfea;
+  background-color: #292929;
+  border-left: solid 1px #292929;
+  border-right: solid 1px #292929;
   &.container {
     padding: 0;
   }

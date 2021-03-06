@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Gólfhiti'
 date: 2021-02-20 15:56:00
 categories: Gólfhiti

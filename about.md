@@ -201,5 +201,4 @@ google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
 {% endhighlight %}
