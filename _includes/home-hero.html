@@ -1,10 +1,7 @@
-<div class="container mx-auto bg-indigo-100 p-24 border-indigo-900 border-2 rounded-xl shadow-2xl grid grid-cols-6 gap-4">
-    {% if site.title != '' %}
-    <div class="">
-      <img class="w-full h-48" src="/img/posts/basiclogo.jpeg" title="{{ site.title }}">
-    </div>
-    <div class="col-span-5 ">
-      <h1 class="text-center text-4xl leading-8 my-8">{{site.title}}</h1>
+<div class="container mx-auto bg-gray-50 p-12 border-gray-400 border-2 rounded-xl shadow-2xl grid grid-cols-6 gap-4">
+    {% if site.title != '' %}  
+    <div class="col-span-6 ">
+      <img class="w-full h-64 bl-logo" src="/img/posts/svg-trans.svg" title="{{ site.title }}">
 
       {% if site.description != '' or site.enable_contact == true %}
       <p class="text-center">
@@ -22,27 +19,26 @@
     {% endif %}
 
     <div class=""><!-- spacer --></div>
-    <div class="col-span-5 text-center">
+    <div class="col-span-6 text-center">
 
       {% if site.facebook != '' %}
         <a href="https://facebook.com/{{ site.facebook_username }}">
           <button class="p-4 ml-8 bg-gray-900 rounded-lg text-gray-50 shadow-lg border-2 border-gray-900">
-          <i class="fa fa-facebook fa-lg"></i>
+          <i class="fa mr-3 fa-facebook fa-lg"></i>
             Facebook
         </button>
       </a>
       {% endif %}
       <a href="mailto:snorri@byggdalagnir.is">
         <button class="p-4 ml-8 bg-gray-900 rounded-lg text-gray-50 shadow-lg border-2 border-gray-900">
-          <i class="fa fa-envelope fa-lg"></i>
+          <i class="fa mr-3 fa-envelope fa-lg"></i>
           snorri@byggdalagnir.is
         </button>
       </a>
       
       <button class="p-4 ml-8 bg-gray-900 rounded-lg text-gray-50 shadow-lg border-2 border-gray-900">
-      <i class="fa fa-phone fa-lg"> 
-          8679521
-      </i>
+      <i class="fa mr-3 fa-phone fa-lg">           
+      </i> 8679521
       </button>
 
     </div>

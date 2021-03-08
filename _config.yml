@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Byggðalagnir"
 email: 'byggdalagnir@gmail.com'
-description: "Ég kem og kíki á pípulagnirnar hjá þér..."
+description: "Ég kem og kíki á pípulagnirnar hjá konunni þinni á meðan þú ert í vinnunni"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lettfeti.github.io/byggdalagnir" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'byggdalagnir'
