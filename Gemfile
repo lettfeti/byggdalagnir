@@ -9,10 +9,3 @@ gem "github-pages", "~> 212", group: :jekyll_plugins
 gem "webrick", "~> 1.7"
 
 gem "kramdown-parser-gfm", "~> 1.1"
-
-gem "sassc"
-
-group :jekyll_plugins do
-    gem 'jekyll-postcss'
-    gem 'jekyll-purgecss'
-end

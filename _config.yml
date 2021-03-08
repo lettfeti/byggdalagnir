@@ -23,10 +23,6 @@ facebook_username: 'byggdalagnir'
 
 # Build settings
 markdown: kramdown
-# theme: phantom # Uncomment once published to RubyGems
-plugins:
-  - jekyll-postcss
-  - jekyll-purgecss
 
 exclude:
   - node_modules/
