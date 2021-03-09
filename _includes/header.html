@@ -18,15 +18,19 @@
   <link rel="icon" href="{{ site.url }}/img/favicon.png">
 
   <!-- Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700|Merriweather:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+  
+  <link href='{{ "/assets/fonts/Arvo-Bold.woff" | prepend: site.baseurl }}' rel='stylesheet' type='text/css'>
+  <link href='{{ "/assets/fonts/Arvo-BoldItalic.woff" | prepend: site.baseurl }}' rel='stylesheet' type='text/css'>
+  <link href='{{ "/assets/fonts/Arvo-Italic.woff" | prepend: site.baseurl }}' rel='stylesheet' type='text/css'>
+  <link href='{{ "/assets/fonts/Arvo-Regular.woff" | prepend: site.baseurl }}' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}'>
 
 </head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %} font-serif">
 
 <div class="min-w-full min-h-screen p-12 bg-gray-300">
 
