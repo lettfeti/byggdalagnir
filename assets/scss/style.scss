@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'arvo';
+  src: url('/assets/fonts/Arvo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arvo';
+  src: url('/assets/fonts/Arvo-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arvo';
+  src: url('/assets/fonts/Arvo-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'arvo';
+  src: url('/assets/fonts/Arvo-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+.bl-logo { 
+  -webkit-filter: invert(.75);
+  filter: invert(.75);
+}

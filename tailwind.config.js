@@ -8,6 +8,10 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {},
+
+    fontFamily: {
+      serif: ['arvo', 'serif'],
+    },
   },
   variants: {},
   plugins: [

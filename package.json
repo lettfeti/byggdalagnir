@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "css": "NODE_ENV=production postcss css/style.scss -o css/style.css"
+    "dev:watch": "watch 'npm run dev' assets/scss/",
+    "dev": "postcss assets/scss/style.scss -o css/style.css",
+    "css": "NODE_ENV=production postcss assets/scss/style.scss -o css/style.css"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.0",
@@ -9,6 +11,7 @@
     "postcss": "^8.2.7",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^13.0.0",
-    "tailwindcss": "^2.0.3"
+    "tailwindcss": "^2.0.3",
+    "watch": "^1.0.2"
   }
 }
